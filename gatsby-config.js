@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Zauru ERP+CRM',
   },
+  pathPrefix: `/blog`,
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
