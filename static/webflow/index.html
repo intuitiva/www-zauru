@@ -1,0 +1,428 @@
+<!DOCTYPE html><!-- This site was created in Webflow. http://www.webflow.com --><!-- Last Published: Thu Aug 30 2018 15:22:26 GMT+0000 (UTC) -->
+<html data-wf-domain="luiss-first-project-02693e.webflow.io" data-wf-page="5b7cae1396097233bfd9e0af" data-wf-site="5b7cae1396097217c5d9e0a7" data-wf-status="1">
+   <head>
+      <meta charset="utf-8"/>
+      <title>Zauru ERP/CRM — Controle su Empresa</title>
+      <meta content="Zauru es un ERP y CRM enfocado a pequeñas y medianas empresas de Latinoamérica. Atendemos distribuidores/importadores, desarrolladores de proyectos, proveedores de servicios y empresas que cobran recurrentemente." name="description"/>
+      <meta content="Zauru ERP/CRM — Controle su Empresa" property="og:title"/>
+      <meta content="Zauru es un ERP y CRM enfocado a pequeñas y medianas empresas de Latinoamérica. Atendemos distribuidores/importadores, desarrolladores de proyectos, proveedores de servicios y empresas que cobran recurrentemente." property="og:description"/>
+      <meta content="summary" name="twitter:card"/>
+      <meta content="width=device-width, initial-scale=1" name="viewport"/>
+      <meta content="Webflow" name="generator"/>
+      <link href="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/css/luiss-first-project-02693e.webflow.f4b4ad86f.css" rel="stylesheet" type="text/css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Roboto:regular,700"]  }});</script><!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]--><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+      <link href="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7d792aa3ecabb33b171dcb_favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+      <link href="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7d7aa65eeca16f697339e4_favicon256.png" rel="apple-touch-icon"/>
+   </head>
+   <body class="body">
+      <div data-ix="preloader" class="preloader"></div>
+      <div data-ix="page-load" class="page-wrapper">
+         <div data-collapse="medium" data-animation="default" data-duration="400" class="nav-bar fixed-nav-bar w-nav">
+            <div class="wrapper w-container">
+               <a href="#" class="logo w-nav-brand"><img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7f6bde06c07e52cc1b4714_logo320.png" width="148" class="image-5"/></a>
+               <nav role="navigation" class="nav-menu fixed-nav-menu w-nav-menu">
+                  <div data-delay="0" data-hover="1" class="w-dropdown">
+                     <div class="nav-link fixed-nav-link w-dropdown-toggle">
+                        <div class="dropdown-icon w-icon-dropdown-toggle"></div>
+                        <div>Somos expertos con empresas</div>
+                     </div>
+                     <nav class="dropdown fixed-dropdown w-dropdown-list"><a href="#Industries" class="dropdown-link w-dropdown-link">Distribuidores/Importadores</a><a href="#Industries" class="dropdown-link w-dropdown-link">Desarrolladores de Proyectos</a><a href="#Industries" class="dropdown-link w-dropdown-link"><strong class="bold-text">Proveedores de Servicios</strong></a><a href="#Industries" class="dropdown-link w-dropdown-link"><strong class="bold-text-2">Empresas con cobros Recurrentes</strong></a></nav>
+                  </div>
+                  <a href="#Modules" class="nav-link fixed-nav-link w-nav-link">Módulos</a><a href="#Pricing" class="nav-link fixed-nav-link w-nav-link">Precios</a><a href="/blog" class="nav-link fixed-nav-link w-nav-link">Blog</a><a href="https://app.zauru.com" class="button fixed-nav-bar-button w-button">Ingresar</a>
+               </nav>
+               <div class="menu-button fixed-menu-button w-nav-button">
+                  <div class="w-icon-nav-menu"></div>
+               </div>
+            </div>
+         </div>
+         <div id="Hero" data-ix="show-nav-bar-on-scroll" class="image-section hero-section hero-image">
+            <div data-collapse="medium" data-animation="default" data-duration="400" class="nav-bar w-nav">
+               <div class="wrapper w-container">
+                  <a href="/" class="logo w-nav-brand"><img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7cb1fe0cb91b5a05ce4c15_logo900_obscuro_transparente.png" width="154" height="57" srcset="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7cb1fe0cb91b5a05ce4c15_logo900_obscuro_transparente-p-500.png 500w, https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7cb1fe0cb91b5a05ce4c15_logo900_obscuro_transparente-p-800.png 800w, https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7cb1fe0cb91b5a05ce4c15_logo900_obscuro_transparente.png 907w" sizes="(max-width: 479px) 100vw, 154px"/></a>
+                  <nav role="navigation" class="nav-menu w-nav-menu">
+                     <div data-delay="0" data-hover="1" class="w-dropdown">
+                        <div class="nav-link w-dropdown-toggle">
+                           <div class="dropdown-icon w-icon-dropdown-toggle"></div>
+                           <div>Somos expertos con empresas</div>
+                        </div>
+                        <nav class="dropdown w-dropdown-list"><a href="/distribuidores" class="dropdown-link w-dropdown-link">Distribuidores/importadores</a><a href="#Modules" class="dropdown-link w-dropdown-link">Desarrolladores de proyectos</a><a href="#Modules" class="dropdown-link w-dropdown-link">Proveedores de servicios</a><a href="#Modules" class="w-dropdown-link">Empresas con cobros recurrentes</a></nav>
+                     </div>
+                     <a href="/" class="nav-link w-nav-link w--current">Módulos</a><a href="/" class="nav-link w-nav-link w--current">Precios</a><a href="/blog" class="nav-link w-nav-link">Blog</a><a href="https://app.zauru.com" class="button white-button nav-bar-button w-button">Ingresar</a>
+                  </nav>
+                  <div class="menu-button w-nav-button">
+                     <div class="w-icon-nav-menu"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="wrapper center-intro-wrapper w-container">
+               <div class="hero-center-intro">
+                  <h1 data-ix="fade-up-2">Ordena tu empresa</h1>
+                  <p data-ix="fade-up-3" class="hero-text">Zauru ERP/CRM simplifica y digitaliza todos los procesos de tu empresa, de manera accesible, en cualquier momento y lugar.</p>
+                  <a href="https://app.zauru.com/subscribe" data-ix="fade-up-4" class="button w-button">Inicia prueba de 15 días</a>
+               </div>
+            </div>
+            <div class="hero-bottom">
+               <div class="wrapper hero-bottom-wrapper w-container">
+                  <div class="hero-social">
+                     <h6 class="hero-social-header">siguenos en</h6>
+                     <div class="hero-social-line"></div>
+                     <div class="social-icons"><a href="https://twitter.com/zauru_erp" target="_blank" class="social-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7cae139609722571d9e0d5_twitter-icon-white.svg"/></a><a href="https://facebook.com/zauruerp" target="_blank" class="social-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7cae1396097263b8d9e0be_facebook-icon-white.svg"/></a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="Industries" class="section no-paddings">
+            <div class="section-header-wrapper">
+               <h2 class="heading">Zauru está especializado en empresas</h2>
+            </div>
+            <div class="feature-cells">
+               <div class="feature-cell">
+                  <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7dcc8bbe2e2d2450206df1_boxes.png" width="56" class="feature-icon"/>
+                  <h5>Distribuidores/Importadores</h5>
+                  <p class="paragraph-small grey-text">Control completo del inventario físico y contable. Meneje las cuentas por cobrar, cuentas por pagar y cotizaciones de una forma centralizada.</p>
+                  <a href="/distribuidores" class="feature-link">Conozca más</a>
+               </div>
+               <div class="feature-cell">
+                  <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7dcc902985fb560f5168ef_tasks.png" width="56" class="feature-icon"/>
+                  <h5>Desarrolladores de proyectos</h5>
+                  <p class="paragraph-small grey-text">Control del dinero en cada proyecto, manejo de presupuestos por proyectos y sepa cuanto ganó o perdió</p>
+                  <a href="#" class="feature-link">Conozca más</a>
+               </div>
+               <div class="feature-cell">
+                  <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7dcc8f745e2eabe8e05359_magic.png" width="63" class="feature-icon"/>
+                  <h5>Proveedores de Servicios</h5>
+                  <p class="paragraph-small grey-text">Control de insumos basado en recetas (para servicios estandarizados) o basado en casos (para servicios a la medida)</p>
+                  <a href="#" class="feature-link">Conozca más</a>
+               </div>
+               <div class="feature-cell">
+                  <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7dcc8e4e40b906807a5a42_forward.png" width="56" class="feature-icon"/>
+                  <h5>Empresas con cobros recurrentes</h5>
+                  <p class="paragraph-small grey-text">Automatice la generación de facturas por medio de contratos. </p>
+                  <a href="#" class="feature-link">Conozca más</a>
+               </div>
+            </div>
+         </div>
+         <div class="section no-bottom-padding">
+            <div class="wrapper w-container">
+               <div class="side-feature">
+                  <div class="side-feature-image"><img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7d83575e6ae512cd43e0c3_e925e-img.jpg"/></div>
+                  <div class="side-feature-content">
+                     <h2 class="side-feature-header">Procesos, procesos, procesos</h2>
+                     <p class="grey-text">Los procesos bien establecidos permiten <strong>no depender de personas</strong> para que las actividades se realicen de forma satisfactoria.</p>
+                     <div class="side-feature-mini-wrapper">
+                        <div class="side-feature-mini">
+                           <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7d8774a3ecab4e4717345e_award.png" width="32" class="side-feature-mini-icon"/>
+                           <h5>Incluye las mejores prácticas por industria</h5>
+                           <p class="paragraph-small grey-text">Zauru ya está diseñado para adaptarse a las mejores prácticas de cada industria</p>
+                        </div>
+                        <div class="side-feature-mini">
+                           <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7d8e2957359a3c8da5e350_balance.png" width="48" class="side-feature-mini-icon"/>
+                           <h5>Balance perfecto entre estricto y flexible</h5>
+                           <p class="paragraph-small grey-text">Las configuraciones disponibles permiten extender o acortar procesos para adaptarnos a cualquier necesidad</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="section no-side-paddings">
+            <div class="big-side-feature">
+               <div id="Modules" class="big-side-feature-content">
+                  <div class="big-side-feature-info">
+                     <h2 class="heading-3">Combine los módulos que tienen sentido para su negocio</h2>
+                     <ul class="unordered-list">
+                        <li class="grey-text">Configure su sistema para que se adapte a su forma de trabajar</li>
+                        <li class="grey-text">Nuestros permisos granulares permiten limitar acceso a información específica y además estructurar procesos para que cada quien trabaje en lo que tenga que trabajar</li>
+                        <li class="grey-text">El autor de cada operación queda registrado en cada documento para que nunca pierda trazabilidad de quién hizo qué</li>
+                     </ul>
+                     <div class="w-row">
+                        <div class="w-col w-col-4">
+                           <div data-w-id="9afd92f4-b6df-4959-7420-d1fec6f72515" class="module-container">
+                              <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7ef5da1bd1a9bc1d8ffdc6_conta.png" class="module-image"/>
+                              <h3 class="module-header">Contabilidad</h3>
+                              <p class="module-description">Control contable y fiscal del dinero. Proyectos como centros de costos y presupuestos.</p>
+                           </div>
+                           <div class="module-container">
+                              <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7ef5d8ead85a9005ee16a9_compras.png" class="module-image"/>
+                              <h3 class="module-header">Compras</h3>
+                              <p class="module-description">Ordenes de compra (importaciones o local) con cálculo automático de costos. Pagos a proveedores y cuentas por pagar.</p>
+                           </div>
+                           <div class="module-container">
+                              <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7ef5db050402191f36c8b1_crm.png" class="module-image"/>
+                              <h3 class="module-header">CRM</h3>
+                              <p class="module-description">Control de contactos y seguimiento de cotizaciones.</p>
+                           </div>
+                        </div>
+                        <div class="w-col w-col-4">
+                           <div class="module-container">
+                              <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7ef5dd1bd1a92f278ffdc8_inventario.png" class="module-image"/>
+                              <h3 class="module-header">Inventarios</h3>
+                              <p class="module-description">Control de las existencias en bodegas virtuales y físicas. Permite registrar números de serie (productos únicos) o lotes (productos perecederos).</p>
+                           </div>
+                           <div class="module-container">
+                              <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7ef5defda3dc426ba34527_pos.png" class="module-image"/>
+                              <h3 class="module-header">POS (punto de venta)</h3>
+                              <p class="module-description">Facturación y cobros con pantallas touch y lector de código de barras.</p>
+                           </div>
+                           <div class="module-container">
+                              <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7dcc8e4e40b906807a5a42_forward.png" class="module-image"/>
+                              <h3 class="module-header">Contratos</h3>
+                              <p class="module-description">Generación automática de documentos como facturas, ordenes de venta y ordenes de compra.</p>
+                           </div>
+                        </div>
+                        <div class="w-col w-col-4">
+                           <div class="module-container">
+                              <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7ef5e13d97d2ea14125f39_ventas.png" class="module-image"/>
+                              <h3 class="module-header">Ventas</h3>
+                              <p class="module-description">Facturación y cobros. Control de cuentas por cobrar.</p>
+                           </div>
+                           <div class="module-container">
+                              <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7ef5d7050402fdc036c8ae_api.png" class="module-image"/>
+                              <h3 class="module-header">API (comunicación)</h3>
+                              <p class="module-description">Integración con sistemas de terceros como <a href="https://zapier.com" target="_blank">Zapier</a> para automatizar cualquier operación del sistema.</p>
+                           </div>
+                           <div class="module-container">
+                              <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7ef5dfead85ac75eee16ac_soporte.png" class="module-image"/>
+                              <h3 class="module-header">Soporte (casos)</h3>
+                              <p class="module-description">Registro de casos de soporte con facturación automática en caso que sea necesario.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="image-section facts-bg-section">
+            <div class="wrapper w-container">
+               <div class="facts">
+                  <div data-ix="fade-up-1" class="fact-item">
+                     <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7cae1396097222b3d9e0e7_hearts-icon.png" class="statistic-icon"/>
+                     <h5>300+ Usuarios Activos</h5>
+                  </div>
+                  <div data-ix="fade-up-1" class="fact-item">
+                     <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7cae13960972c338d9e0e3_user-icon.png" class="statistic-icon"/>
+                     <h5>8 años de experiencia</h5>
+                  </div>
+                  <div data-ix="fade-up-3" class="fact-item">
+                     <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7cae139609729e01d9e0e5_complete-icon.png" class="statistic-icon"/>
+                     <h5>Excelente atención al cliente</h5>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="Pricing" class="section">
+            <div class="wrapper w-container">
+               <div class="section-header-wrapper">
+                  <h2>Precios</h2>
+                  <p class="grey-text">Se requiere una implementación que consiste en la configuración y capacitación inicial para poder empezar a utilizar el sistema</p>
+               </div>
+               <div class="pricing-tables">
+                  <div data-ix="fade-up-1" class="pricing-table">
+                     <div class="card-corner">
+                        <div>Configuración y capacitación inicial</div>
+                        <div class="card-corner-line"></div>
+                     </div>
+                     <div class="price"><span class="text-span">desde</span> Q490</div>
+                     <div class="grey-text">// por usuario</div>
+                     <div class="pricing-table-list">
+                        <div class="pricing-table-feature grey"><strong>Unico pago anticipado</strong></div>
+                        <div class="pricing-table-feature"><strong>Máximo 1 visita por cada usuario (</strong>dentro de la capital)</div>
+                        <div class="pricing-table-feature grey">Solicite una llamada para contarnos de su negocio y confirmar el costo de la configuración y capacitación</div>
+                     </div>
+                     <a href="#Contact" class="button w-button">Solicite una llamada</a>
+                  </div>
+                  <div data-ix="fade-up-2" class="pricing-table">
+                     <div class="card-corner">
+                        <div>Costo por usuario</div>
+                        <div class="card-corner-line"></div>
+                     </div>
+                     <div class="price">Q179</div>
+                     <div class="grey-text">// por usuario al mes</div>
+                     <div class="pricing-table-list">
+                        <div class="pricing-table-feature grey"><strong>Pago recurrente mensual anticipado</strong></div>
+                        <div class="pricing-table-feature">Puede utilizar Cualquiera de nuestros<strong> 9 módulos</strong></div>
+                        <div class="pricing-table-feature grey"><strong>8x5</strong> Soporte por Chat integrado en la plataforma</div>
+                        <div class="pricing-table-feature"><strong>1 usuario gratis por cada 5 usuarios</strong> (paga 8, usa 10)</div>
+                     </div>
+                     <a href="https://app.zauru.com/subscribe" class="button w-button">Inicie prueba de 15 días GRATIS</a>
+                  </div>
+                  <div data-ix="fade-up-3" class="pricing-table">
+                     <div class="card-corner">
+                        <div>Sesión de generación de reporte a la medida</div>
+                        <div class="card-corner-line"></div>
+                     </div>
+                     <div class="price">Q700</div>
+                     <div class="grey-text">// por sesión</div>
+                     <div class="pricing-table-list">
+                        <div class="pricing-table-feature grey"><strong>Unico pago anticipado</strong></div>
+                        <div class="pricing-table-feature"><strong>3 horas</strong> de desarrollo remotas o en sitio <strong>(</strong>dentro de la capital)</div>
+                        <div class="pricing-table-feature grey">La cantidad de reportes a realizar dependen de la complejidad de cada uno</div>
+                     </div>
+                  </div>
+                  <div data-ix="fade-up-4" class="pricing-table">
+                     <div class="card-corner">
+                        <div>Acceso al Sistema de Reportería interactiva</div>
+                        <div class="card-corner-line"></div>
+                     </div>
+                     <div class="price">$59</div>
+                     <div class="grey-text">// por empresa al mes</div>
+                     <div class="pricing-table-list">
+                        <div class="pricing-table-feature grey"><strong>Pago recurrente mensual anticipado</strong></div>
+                        <div class="pricing-table-feature"><strong>Interactúe</strong> con sus reportes hechos a la medida</div>
+                        <div class="pricing-table-feature grey"><strong>Cree y edite</strong> sus propios reportes</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="pricing-text">¿Tiene dudas? Verifique nuestro <a href="#" class="text-link">FAQ</a> y no dude en <a href="#" class="text-link">contactarnos</a>.</div>
+            </div>
+         </div>
+         <div id="FAQ" class="section">
+            <div class="wrapper w-container">
+               <div class="faq-list">
+                  <h2 class="faq-header">FAQ (preguntas frecuentes)</h2>
+                  <a href="#" data-ix="show-answer" class="question-container w-inline-block">
+                     <div class="question">
+                        <h5 class="question-text">¿Que significa Zauru?</h5>
+                        <div class="plus-icon">
+                           <div class="plus-icon-v-line"></div>
+                           <div class="plus-icon-h-line"></div>
+                        </div>
+                        <div class="question-line"></div>
+                     </div>
+                     <div data-ix="hide-on-load" class="answer">
+                        <p class="paragraph-small grey-text">La idea original era nombrar al sistema &quot;Aureola&quot; para representar la bondad de la solución; de hecho nuestro logo todavía tiene la aureola como característica principal. PERO aureola.com ya estaba tomado por lo que se decidió acortar el nombre y agregarle una Z al principio para que fuera fácil que la barra de los navegadores lo recomendaran como único dominio que empezaba con Z.</p>
+                     </div>
+                  </a>
+                  <a href="#" data-ix="show-answer" class="question-container w-inline-block">
+                     <div class="question">
+                        <h5 class="question-text">¿Qué es se considera un usuario?</h5>
+                        <div class="plus-icon">
+                           <div class="plus-icon-v-line"></div>
+                           <div class="plus-icon-h-line"></div>
+                        </div>
+                        <div class="question-line"></div>
+                     </div>
+                     <div data-ix="hide-on-load" class="answer">
+                        <p class="paragraph-small grey-text">Es una sola credencial de ingreso. Si 2 personas comparten credenciales sigue siendo 1 solo usuario.</p>
+                     </div>
+                  </a>
+                  <a href="#" data-ix="show-answer" class="question-container w-inline-block">
+                     <div class="question">
+                        <h5 class="question-text">¿Se puede compartir un usuario en simultáneo?</h5>
+                        <div class="plus-icon">
+                           <div class="plus-icon-v-line"></div>
+                           <div class="plus-icon-h-line"></div>
+                        </div>
+                        <div class="question-line"></div>
+                     </div>
+                     <div data-ix="hide-on-load" class="answer">
+                        <p class="paragraph-small grey-text">Si, no está recomendado porque se pierde trazabilidad de las operaciones que se hacen en el sistema. Si 2 personas utilizan el mismo usuario y alguien anuló una factura, nunca se va a saber quien de las 2 personas lo anuló.</p>
+                     </div>
+                  </a>
+                  <a href="#" data-ix="show-answer" class="question-container w-inline-block">
+                     <div class="question">
+                        <h5 class="question-text">¿La prueba de 15 días tiene alguna limitante?</h5>
+                        <div class="plus-icon">
+                           <div class="plus-icon-v-line"></div>
+                           <div class="plus-icon-h-line"></div>
+                        </div>
+                        <div class="question-line"></div>
+                     </div>
+                     <div data-ix="hide-on-load" class="answer">
+                        <p class="paragraph-small grey-text">No, de hecho el chat de soporte está habilitado para que pueda resolver cualquier duda.</p>
+                     </div>
+                  </a>
+                  <a href="#" data-ix="show-answer" class="question-container w-inline-block">
+                     <div class="question">
+                        <h5 class="question-text">¿Dónde se almacena mi información?</h5>
+                        <div class="plus-icon">
+                           <div class="plus-icon-v-line"></div>
+                           <div class="plus-icon-h-line"></div>
+                        </div>
+                        <div class="question-line"></div>
+                     </div>
+                     <div data-ix="hide-on-load" class="answer">
+                        <p class="paragraph-small grey-text">Zauru es un sistema web que almacena la información en la nube, nuestros servidores se encuentran físicamente en los Estados Unidos con nuestro proveedor Amazon.</p>
+                     </div>
+                  </a>
+                  <a href="#" data-ix="show-answer" class="question-container w-inline-block">
+                     <div class="question">
+                        <h5 class="question-text">¿Cuánto tiempo toma la configuración y capacitación inicial?</h5>
+                        <div class="plus-icon">
+                           <div class="plus-icon-v-line"></div>
+                           <div class="plus-icon-h-line"></div>
+                        </div>
+                        <div class="question-line"></div>
+                     </div>
+                     <div data-ix="hide-on-load" class="answer">
+                        <p class="paragraph-small grey-text">Depende de la complejidad de la empresa, pero hemos implementado en 1 semana en algunos casos no muy complejos.</p>
+                     </div>
+                  </a>
+                  <a href="#" data-ix="show-answer" class="question-container w-inline-block">
+                     <div class="question">
+                        <h5 class="question-text">¿Existe algún limite en la cantidad de datos que puedo ingresar?</h5>
+                        <div class="plus-icon">
+                           <div class="plus-icon-v-line"></div>
+                           <div class="plus-icon-h-line"></div>
+                        </div>
+                        <div class="question-line"></div>
+                     </div>
+                     <div data-ix="hide-on-load" class="answer">
+                        <p class="paragraph-small grey-text">No, se pueden crear items ilimitados, categorías ilimitadas, cuentas ilimitadas, etc.</p>
+                     </div>
+                  </a>
+                  <div class="faq-contact-text">¿Todavía tiene dudas? <a class="text-link">Contáctenos</a></div>
+               </div>
+            </div>
+         </div>
+         <div class="contact">
+            <h2 class="heading-2">Contáctenos</h2>
+            <div class="w-row">
+               <div class="w-col w-col-6">
+                  <div class="contact-form-wrapper w-form">
+                     <form id="email-form" name="email-form" data-name="Email Form" class="contact-form"><label for="nombre-2" class="form-label">Nombre</label><input type="text" class="input w-input" maxlength="256" name="nombre" data-name="nombre" required=""/><label for="tel" class="form-label">Teléfono</label><input type="text" name="tel" data-name="tel" maxlength="256" class="input w-input"/><label for="email" class="form-label">Email</label><input type="email" class="input w-input" maxlength="256" name="email" data-name="Email" required=""/><label for="mensaje-2" class="form-label">Mensaje</label><textarea required="" name="mensaje" placeholder="¿Cómo podemos ayudarlo?" maxlength="5000" data-name="mensaje" class="input text-area w-input"></textarea><input type="submit" value="Enviar mensaje" data-wait="Please wait..." class="button form-button w-button"/></form>
+                     <div class="w-form-done">
+                        <div>Thank you! Your submission has been received!</div>
+                     </div>
+                     <div class="w-form-fail">
+                        <div>Oops! Something went wrong while submitting the form.</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="w-col w-col-6">
+                  <div class="map-wrapper">
+                     <div data-widget-latlng="14.6071677,-90.54881879999999" data-widget-zoom="13" class="map w-widget w-widget-map"></div>
+                  </div>
+                  <div data-ix="fade-up-1" class="contact-card">
+                     <div class="contact-address">15 calle 8-13 zona 11, Guatemala, Guatemala</div>
+                     <div class="contact-info"><span class="grey-text">Phone Number:</span> <a href="tel:+50241978842">+502 4197 8842</a></div>
+                     <div class="contact-info"><span class="grey-text">Email:</span> <a href="mailto:info@intuitiva.biz?subject=Vi%20el%20www.zauru.com" class="text-link">info@intuitiva.biz</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="Contact" class="section contact-section no-top-padding"></div>
+         <div class="image-section footer-section">
+            <div class="wrapper w-container">
+               <div class="footer w-clearfix">
+                  <a href="#Hero" data-ix="scroll-up-button-hover" class="scroll-up-button w-inline-block"><img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7cae139609721a0ed9e0bf_arrow-scroll-up-icon.svg" class="scroll-arrow-icon"/></a>
+                  <div class="footer-about">
+                     <img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7cb1fe0cb91b5a05ce4c15_logo900_obscuro_transparente.png" width="149" srcset="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7cb1fe0cb91b5a05ce4c15_logo900_obscuro_transparente-p-500.png 500w, https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7cb1fe0cb91b5a05ce4c15_logo900_obscuro_transparente-p-800.png 800w, https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7cb1fe0cb91b5a05ce4c15_logo900_obscuro_transparente.png 907w" sizes="(max-width: 479px) 100vw, 149px" class="image-4"/>
+                     <p class="paragraph-small">Creamos una herramienta asombrosa que apoya a las empresas a ordenarse para tomar decisiones informadas</p>
+                     <div class="social-icons footer-icons"><a href="https://twitter.com/zauru_erp" target="_blank" class="social-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7cae139609722571d9e0d5_twitter-icon-white.svg"/></a><a href="https://facebook.com/zauruerp" target="_blank" class="social-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/5b7cae1396097263b8d9e0be_facebook-icon-white.svg"/></a></div>
+                  </div>
+                  <div class="footer-links">
+                     <h6 class="footer-header">Links</h6>
+                     <a href="/" class="footer-link w--current">Industrias atendidas</a><a href="/" class="footer-link w--current">Módulos</a><a href="/" class="footer-link w--current">Precios</a><a href="/" class="footer-link w--current">FAQ</a><a href="/" class="footer-link w--current">Contáctenos</a><a href="/blog" class="footer-link">Blog</a><a href="https://docs.zauru.com" target="_blank" class="footer-link">Manual de Usuario</a>
+                  </div>
+                  <div class="footer-copyright">
+                     <div>Creado con<span class="heart-icon">love</span>por <a target="_blank" href="https://www.intuitiva.solutions" class="footer-small-link">Intuitiva</a></div>
+                     <div class="copyright-text">© Intuitiva, 2018. Derechos reservados<a href="https://webflow.com" target="_blank" class="footer-small-link"></a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script><script src="https://uploads-ssl.webflow.com/5b7cae1396097217c5d9e0a7/js/webflow.12ea1c07d.js" type="text/javascript"></script><!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+   </body>
+</html>
