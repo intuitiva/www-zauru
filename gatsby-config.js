@@ -2,7 +2,6 @@ module.exports = {
   siteMetadata: {
     title: 'Zauru ERP+CRM',
   },
-  pathPrefix: `/blog`,
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
