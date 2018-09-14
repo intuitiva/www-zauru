@@ -69,6 +69,19 @@ exports.createPages = ({ actions, graphql }) => {
       })
     })
   })
+
+  // need createRedirect action in actions collection
+  // to make the redirection magic happen.
+  // https://www.gatsbyjs.org/docs/bound-action-creators/
+  const { createRedirect } = actions
+
+  // One-off redirect, note trailing slash
+  createRedirect({
+    fromPath: `/`,
+    isPermanent: true,
+    redirectInBrowser: true,
+    toPath: `/home/`,
+  })
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
