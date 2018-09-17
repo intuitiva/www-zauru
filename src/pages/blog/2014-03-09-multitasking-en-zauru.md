@@ -2,7 +2,9 @@
 templateKey: blog-post
 title: ¿Cómo hacer Multitasking en Zauru?
 date: 2014-03-09T16:18:10.000Z
-description: Una forma sencilla de trabajar en varios documentos (facturas, envíos, ordenes de compra, etc.) al mismo tiempo en Zauru
+description: >-
+  Una forma sencilla de trabajar en varios documentos (facturas, envíos, ordenes
+  de compra, etc.) al mismo tiempo en Zauru.
 tags:
   - multitasking
 ---
