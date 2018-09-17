@@ -7,6 +7,6 @@
   YARN_FLAGS = "--no-ignore-optional"
 
 # A basic redirects rule
-#[[redirects]]
-#  from = "/"
-#  to = "/home/"
+[[redirects]]
+  from = "/"
+  to = "/home/"

@@ -21,3 +21,7 @@ To test the CMS locally, you'll need run a production build of the site:
 $ npm run build
 $ npm run serve
 ```
+
+## Netlify Identity (links from email not working)
+
+In order to the links from the email to work (invitations, confirmations, password recovery, email change) we need to add the index.js back (copy from src/pages/blog/index.js) push it and delete the redirects configuration netlify.toml and gatsby-node.js
