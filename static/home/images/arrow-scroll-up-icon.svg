@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-scroll-up-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets-(Light-BG)" transform="translate(-85.000000, -136.000000)" fill="#222222">
+            <g id="Arrow-Right" transform="translate(85.000000, 136.000000)">
+                <path d="M8.99925,12.7533767 L11.29425,10.2721361 C11.68525,9.87693847 12.31725,9.87693847 12.70825,10.2721361 C13.09925,10.6683342 13.09925,11.3096548 12.70825,11.7048524 L9.06125,15.5557779 C8.77725,15.841921 8.40225,16 8.00025,16 C7.59925,16 7.22225,15.841921 6.94025,15.5557779 L3.29325,11.7048524 C2.90225,11.3096548 2.90225,10.6683342 3.29325,10.2721361 C3.68325,9.87693847 4.31625,9.87693847 4.70725,10.2721361 L6.99925,12.7513757 L6.99925,1.00050025 C6.99925,0.448224112 7.44725,0 7.99925,0 C8.55125,0 8.99925,0.448224112 8.99925,1.00050025 L8.99925,12.7533767 L8.99925,12.7533767 L8.99925,12.7533767 Z" id="arrow-up" transform="translate(8.000750, 8.000000) scale(1, -1) translate(-8.000750, -8.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
