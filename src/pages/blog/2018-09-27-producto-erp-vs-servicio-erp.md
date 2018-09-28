@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Producto ERP vs. Servicio ERP
-date: 2018-09-27T19:13:41.361Z
+date: 2014-09-23T19:13:00.000Z
 description: xxx
 tags:
   - DATOS INTERESANTES
