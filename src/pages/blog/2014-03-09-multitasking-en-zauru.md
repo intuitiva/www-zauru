@@ -9,6 +9,7 @@ tags:
   - multitasking
 ---
 Sabemos que el día a día de nuestros usuarios es muy concurrido y que a veces tienen que hacer tareas distintas simultáneamente. Zauru le permite abrir varias pestañas a la vez para hacer distintas tareas simultáneamente. Existen dos maneras de hacerlo:
+
 1. Presionar CTRL+CLICK para abrir el link en una nueva pestaña.
 2. Presionar CTRT+T para abrir una nueva pestaña en blanco.
 
@@ -20,8 +21,10 @@ Existen ocasiones en las que usted necesita dejar la transacción que está haci
 
 Luego de terminar la transacción urgente que tenía que hacer, puede regresar a la pestaña anterior y todos sus datos aun seguirán ahí.
 
-
 En la siguiente imagen se muestra como abrir una ventana adicional con CTRL+CLICK.
+
+![](/img/ctrl-click.png)
+
 > Para los usuarios de MAC el comando para abrir un enlace en una nueva pestaña es COMMAND+CLICK.
 
  Luego de presionar CTRL+CLICK sobre la dirección a la que desea ir, se le abrirá una nueva pestaña en la que podrá seguir trabajando sin perder el trabajo que llevaba en la pestaña anterior.
@@ -31,9 +34,12 @@ En la siguiente imagen se muestra como abrir una ventana adicional con CTRL+CLIC
 Se puede dar el caso en el que usted este haciendo una transacción de cualquier tipo y desee abrir una nueva pestaña en blanco para hacer otra tarea simultáneamente. Usted puede lograr esto presionando CTRL+T en su teclado y escribir nuevamente la dirección www.zauru.com para ingresar al sistema o puede hacer una tarea externa. Esto permitirá que no se pierda el trabajo que ya comenzó a hacer y pueda comenzar una nueva tarea en la nueva pestaña.
 En la siguiente imagen se muestra como abrir una nueva pestaña en blanco.
 
+![](/img/ctrl-t.png)
+
 > Para los usuarios de MAC el comando para abrir una nueva pestaña en blanco es COMMAND+T.
 
 ## Casos típicos de uso
+
 Hemos notado que abrir una nueva pestaña para hacer tareas simultaneas funciona a la perfección en los siguientes casos:
 
 1. Cuando está facturando y el sistema no le permite seleccionar cierta cantidad de un producto, pueden abrir una nueva pestaña presionando CTRL+CLICK sobre las existencias de inventario para ir a ver las existencias y los movimientos de sus productos o también pueden presionar CTRL+T e ingresar a las existencias de inventario manualmente.
