@@ -15,13 +15,21 @@ Con esto logramos hacer aún mas eficiente nuestro módulo de punto de venta, ya
 * **Restaurantes de comida servida:** se solicita la comanda (orden) y se va editando conforme el comenzal va solicitando.
 * **Pedidos por teléfono, Redes Sociales o por e-mail:** cuando el cliente realiza pedidos remotamente, se crea el pedido y se espera a que el cliente deposite para generarle la factura.
 * **Cuando el trabajo está sujeto a cambios:** Si el servicio a ofrecerle al cliente depende de factores externos y no se puede especificar un precio fijo, se crea la orden de venta y se edita justo antes de facturar.
-* **Permisos:** Cuando un empleado com permisos restringidos ayuda a generar facturas antes de que el encargado las emita, se puede dar permisos para emitir órdenes de venta.
+* **Permisos:** Cuando un empleado con permisos restringidos ayuda a generar facturas antes de que el encargado las emita, se puede dar permisos para emitir órdenes de venta.
 
 ## Para Ingresar siga estos dos sencillos pasos:
 
 
 
+![](/img/imagen1.png)
+
+
+
 ## Consulte las órdenes creadas, siguiendo estos pasos:
+
+
+
+![](/img/imagen2.png)
 
 Lo invitamos a consultar nuestro manual en el encontrará paso a paso como hacerlo.
 
