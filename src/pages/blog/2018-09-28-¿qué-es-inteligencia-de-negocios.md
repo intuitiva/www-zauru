@@ -25,3 +25,7 @@ Podríamos hacer un gran listado acerca de las características y usos de la int
 En Zauru queremos ayudar a nuestros clientes a TOMAR DECISIONES DE VALOR que les genere beneficios.
 
 Nuestra plataforma Zauru está integrada con Tableau que es la herramienta de Inteligencia de Negocios más potente del mercado. Esto permite que, como parte de uno de nuestros servicios, podamos ofrecerle reportes personalizados, especializados y certeros con la información ya ingresada en nuestra plataforma.
+
+
+
+![](/img/negocios.jpg)
