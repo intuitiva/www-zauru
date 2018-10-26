@@ -1046,10 +1046,10 @@ figcaption {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -3467,6 +3467,63 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.image-17 {
+  position: absolute;
+  display: block;
+}
+
+.image-18 {
+  position: absolute;
+  display: block;
+}
+
+.image-19 {
+  position: absolute;
+  display: block;
+}
+
+.image-20 {
+  position: absolute;
+  display: block;
+}
+
+.image-21 {
+  position: absolute;
+}
+
+.image-22 {
+  position: absolute;
+}
+
+.image-23 {
+  position: absolute;
+}
+
+.image-24 {
+  position: absolute;
+}
+
+.image-25 {
+  position: absolute;
+  display: block;
+}
+
+.action-link {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px none #3f2020;
+  border-radius: 3px;
+  background-image: -webkit-linear-gradient(0deg, #fb406c, #ff935c);
+  background-image: linear-gradient(90deg, #fb406c, #ff935c);
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-link {
+  color: #224765;
+  text-decoration: none;
 }
 
 html.w-mod-js *[data-ix="preloader"] {
