@@ -8,6 +8,7 @@ sed -i '' 's/"index.html" class="footer-link w--current">P/"#Pricing" class="foo
 sed -i '' 's/"index.html" class="footer-link w--current">F/"#FAQ" class="footer-link w--current">F/g' static/home/index.html
 sed -i '' 's/"index.html" class="footer-link w--current">C/"#Contact" class="footer-link w--current">C/g' static/home/index.html
 sed -i '' 's/"blog.html"/"..\/blog"/g' static/home/index.html
+sed -i '' 's/class="contact-form">/class="contact-form" netlify>/g' static/home/index.html
 sed -i '' 's/"..\/index.html" class="nav-link w-nav-link">M/"..\/index.html#Modules" class="nav-link w-nav-link">M/g' static/home/industrias/desarrolladores-de-proyectos.html
 sed -i '' 's/"..\/index.html" class="nav-link w-nav-link">P/"..\/index.html#Pricing" class="nav-link w-nav-link">P/g' static/home/industrias/desarrolladores-de-proyectos.html
 sed -i '' 's/"..\/index.html" class="nav-link fixed-nav-link w-nav-link">M/"..\/index.html#Modules" class="nav-link fixed-nav-link w-nav-link">M/g' static/home/industrias/desarrolladores-de-proyectos.html
