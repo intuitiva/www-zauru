@@ -2,7 +2,9 @@
 templateKey: blog-post
 title: Órdenes de Venta desde el Módulo de Punto de Venta (P.D.V)
 date: 2014-12-05T00:38:00.000Z
-description: xxx
+description: >-
+  Modulo punto de venta aun mas eficiente al emitir una orden, adicionar o
+  quitar productos o servicios.
 tags:
   - NUEVAS FUNCIONALIDADES
 ---
