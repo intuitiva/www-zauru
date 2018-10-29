@@ -4,7 +4,7 @@ title: ¿Por qué el nombre Zauru?
 date: 2014-11-08T00:36:00.000Z
 description: xxx
 tags:
-  - UNCATEGORIZED
+  - DATOS INTERESANTES
 ---
 A muchos de nuestros clientes y posibles clientes les surge la duda de ¿por qué el nombre Zauru? ¿Qué significa el nombre? Hoy queremos compartir con ustedes la historia detrás del nombre Zauru.
 
