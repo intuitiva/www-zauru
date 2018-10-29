@@ -4,7 +4,7 @@ title: ¿Por qué estandarizar los procesos en una empresa?
 date: 2015-04-13T16:10:00.000Z
 description: xxx
 tags:
-  - UNCATEGORIZED
+  - TIPS DE ZAURU
 ---
 Muchas empresas, antes de trabajar con nosotros no contaban con procesos estandarizados. Procesos como ventas, contabilidad o compras eran **procesos desordenados** que tomaban mucho tiempo ya que se realizaban tareas duplicadas o dejaban de registrar datos que después había que buscar. Entonces, al momento de medir resultados no existían datos al día o había que preguntarle a los colaboradores que había pasado para obtener resultados y eso consumía mucho tiempo.
 
