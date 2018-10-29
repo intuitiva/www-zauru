@@ -2,6 +2,10 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Navbar from '../components/Navbar'
+import Background from '../img/lauren-mancke-60627.jpg'
+import TwitterIcon from '../img/twitter-icon-white.svg'
+import FacebookIcon from '../img/facebook-icon-white.svg'
 
 class TagRoute extends React.Component {
   render() {
@@ -18,22 +22,40 @@ class TagRoute extends React.Component {
     const totalCount = this.props.data.allMarkdownRemark.totalCount
     const tagHeader = `${totalCount} post${
       totalCount === 1 ? '' : 's'
-    } tagged with “${tag}”`
+    } etiquetados con “${tag}”`
 
     return (
       <Layout>
+        <section className="hero" style={{ backgroundImage: `linear-gradient(180deg, rgba(34, 71, 101, .65), rgba(34, 71, 101, .65)), url(${Background})`, backgroundPosition: `0px 0px, 50% -94px`, backgroundRepeat: `repeat, no-repeat`, backgroundAttachment: `scroll, scroll`, backgroundSize: `auto, cover`}}>
+          <div className="hero-head">
+            <Navbar />
+          </div>
+          <div className="hero-body">
+            <div className="container has-text-centered">
+              <h1 className="title" style={{ color: `white`}}>{tagHeader}</h1>
+            </div>
+          </div>
+          <div className="hero-foot hero-social">
+            <h6 className="hero-foot-header" style={{ color: `white`}}>Síguenos en</h6>
+            <div className="hero-foot-line"></div>
+            <div className="social-icons">
+              <a href="https://twitter.com/zauru_erp" target="_blank" rel="noopener noreferrer">
+                <img src={TwitterIcon} alt="Twitter" />
+                </a>
+              <a href="https://facebook.com/zauruerp" target="_blank" rel="noopener noreferrer">
+                <img src={FacebookIcon} alt="Facebook" />
+              </a>
+            </div>
+          </div>
+        </section>
         <section className="section">
           <Helmet title={`${tag} | ${title}`} />
           <div className="container content">
             <div className="columns">
-              <div
-                className="column is-10 is-offset-1"
-                style={{ marginBottom: '6rem' }}
-              >
-                <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
-                <ul>{postLinks}</ul>
+              <div className="column is-10 is-offset-1">
+                <ol>{postLinks}</ol>
                 <p>
-                  <Link to="/tags/">Ver todas las etiquetas</Link>
+                  <Link to="/tags/" className="button is-small">Ver todas las etiquetas</Link>
                 </p>
               </div>
             </div>

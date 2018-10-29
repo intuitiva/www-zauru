@@ -14,6 +14,8 @@ export const BlogPostTemplate = ({
   content,
   contentComponent,
   helmet,
+  date,
+  tags,
 }) => {
   const PostContent = contentComponent || Content
 
@@ -24,6 +26,29 @@ export const BlogPostTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <PostContent content={content} />
+          </div>
+        </div>
+        <div className="columns">
+          <div className="column is-10 is-offset-1">
+            <div className="post-bottom-info">
+              <div>Posteado el</div>
+              <div className="post-bottom-date">{date}</div>
+              <div>con etiqueta</div>
+              {tags && tags.length ? (
+                <div>
+                  {tags.map(tag => (
+                    <span key={tag + `tag`}>
+                      <Link to={`/tags/${kebabCase(tag)}/`} className="post-bottom-tag">{tag}</Link>
+                    </span>
+                  ))}
+                </div>
+              ) : null}
+            </div>
+          </div>
+        </div>
+        <div className="columns">
+          <div className="column is-10 is-offset-1 post-bottom-info">
+            <Link to={`/blog`} className="button is-small">← Regresar al Blog</Link>
           </div>
         </div>
       </div>
@@ -66,7 +91,7 @@ const BlogPost = ({ data }) => {
           </div>
         </div>
         <div className="hero-foot hero-social">
-          <h6 className="hero-foot-header" style={{ color: `white`}}>Síguenos en</h6>
+          <h6 className="hero-foot-header" style={{ color: `white`}}>Compártelo</h6>
           <div className="hero-foot-line"></div>
           <div className="social-icons">
             <a href="https://twitter.com/zauru_erp" target="_blank" rel="noopener noreferrer">
@@ -82,7 +107,10 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         helmet={<Helmet title={`${post.frontmatter.title} | Zauru Blog`} />}
+        date={post.frontmatter.date}
+        tags={post.frontmatter.tags}
       />
+
     </Layout>
   )
 }
@@ -101,7 +129,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD/M/YYYY")
         title
         description
         tags
