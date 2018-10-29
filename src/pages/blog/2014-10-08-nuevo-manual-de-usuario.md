@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Nuevo Manual de Usuario
 date: 2014-10-08T19:32:00.000Z
-description: xxx
+description: A un solo click para solventar sus dudas.
 tags:
   - NUEVAS FUNCIONALIDADES
   - TIPS DE ZAURU
