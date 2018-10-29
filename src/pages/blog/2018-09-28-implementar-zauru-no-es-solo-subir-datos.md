@@ -4,7 +4,7 @@ title: Implementar Zauru no es solo subir datos
 date: 2015-06-30T17:07:00.000Z
 description: xxx
 tags:
-  - UNCATEGORIZED
+  - IMPLEMENTACION
 ---
 Para Zauru es esencial que los clientes sepan lo importante que es la comunicación con ellos. Desde el primer momento se busca mantener una buena comunicación. 
 
