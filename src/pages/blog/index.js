@@ -2,6 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/Layout'
+import Navbar from '../../components/Navbar'
+import Background from '../../img/lauren-mancke-60627.jpg'
+import TwitterIcon from '../../img/twitter-icon-white.svg'
+import FacebookIcon from '../../img/facebook-icon-white.svg'
 
 export default class IndexPage extends React.Component {
   render() {
@@ -10,11 +14,31 @@ export default class IndexPage extends React.Component {
 
     return (
       <Layout>
+        <section className="hero is-medium" style={{ backgroundImage: `linear-gradient(180deg, rgba(34, 71, 101, .65), rgba(34, 71, 101, .65)), url(${Background})`, backgroundPosition: `0px 0px, 50% -94px`, backgroundRepeat: `repeat, no-repeat`, backgroundAttachment: `scroll, scroll`, backgroundSize: `auto, cover`}}>
+          <div className="hero-head">
+            <Navbar />
+          </div>
+          <div className="hero-body">
+            <div className="container has-text-centered">
+              <h1 className="title" style={{ color: `white`}}>Blog</h1>
+              <h2 className="subtitle" style={{ color: `white`}}>Ideas, ejemplos y opiniones</h2>
+            </div>
+          </div>
+          <div className="hero-foot hero-social">
+            <h6 className="hero-foot-header" style={{ color: `white`}}>Síguenos en</h6>
+            <div className="hero-foot-line"></div>
+            <div className="social-icons">
+              <a href="https://twitter.com/zauru_erp" target="_blank" rel="noopener noreferrer">
+                <img src={TwitterIcon} alt="Twitter" />
+               </a>
+              <a href="https://facebook.com/zauruerp" target="_blank" rel="noopener noreferrer">
+                <img src={FacebookIcon} alt="Facebook" />
+              </a>
+            </div>
+          </div>
+        </section>
         <section className="section">
           <div className="container">
-            <div className="content">
-              <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
-            </div>
             {posts
               .map(({ node: post }) => (
                 <div
@@ -34,7 +58,7 @@ export default class IndexPage extends React.Component {
                     <br />
                     <br />
                     <Link className="button is-small" to={post.fields.slug}>
-                      Keep Reading →
+                      Leer Más →
                     </Link>
                   </p>
                 </div>
@@ -70,7 +94,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             templateKey
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "DD/M/YYYY")
           }
         }
       }
