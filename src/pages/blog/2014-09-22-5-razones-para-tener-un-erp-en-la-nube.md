@@ -2,7 +2,9 @@
 templateKey: blog-post
 title: 5 razones para tener un ERP en la nube
 date: 2014-09-22T19:10:00.000Z
-description: xxx
+description: >-
+  Un ERP en la nube ahorra costos y da nuevas facilidades para trabajar en
+  equipo.
 tags:
   - DATOS INTERESANTES
 ---
