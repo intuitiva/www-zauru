@@ -4,7 +4,7 @@ title: 5 razones para tener un ERP en la nube
 date: 2014-09-22T19:10:00.000Z
 description: xxx
 tags:
-  - datos interesantes
+  - DATOS INTERESANTES
 ---
 Está en busca de un ERP y tiene que decidir entre almacenar su información en la nube o almacenarla físicamente. Aquí tiene 5 razones para tener un ERP en la nube:
 
