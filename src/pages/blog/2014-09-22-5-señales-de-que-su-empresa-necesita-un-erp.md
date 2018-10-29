@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: 5 Señales de que su empresa necesita un ERP
 date: 2014-09-22T16:27:00.000Z
-description: xxx
+description: Diagnostique su empresa con estos puntos.
 tags:
   - DATOS INTERESANTES
 ---
