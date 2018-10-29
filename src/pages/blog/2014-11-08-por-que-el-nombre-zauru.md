@@ -2,7 +2,9 @@
 templateKey: blog-post
 title: ¿Por qué el nombre Zauru?
 date: 2014-11-08T00:36:00.000Z
-description: xxx
+description: >-
+  Zauru, fácil de encontrar en los motores de búsqueda, nombre poco común. Un
+  sistema de gran utilidad en cualquier parte del mundo.
 tags:
   - DATOS INTERESANTES
 ---
