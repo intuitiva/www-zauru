@@ -4,7 +4,7 @@ title: ¿Es Excel su herramienta principal de trabajo?
 date: 2016-05-30T19:12:00.000Z
 description: xxx
 tags:
-  - UNCATEGORIZED
+  - COMPARACIONES
 ---
 Actualmente muchas empresas utilizan Microsoft Excel como su herramienta principal de trabajo, y por qué no? es una herramienta que genera muchos beneficios y que puede ayudarnos a controlar muchas cosas, si se utiliza bien.
 
@@ -27,6 +27,4 @@ Zauru soluciona muchos de estos problemas comunes, ya que Zauru no utiliza hojas
 
 Lo invitamos a aprovechar las ventajas que ofrece ahora el internet y a probar nuestra plataforma.
 
-
-
-![](/img/excel.png)
+![null](/img/excel.png)
