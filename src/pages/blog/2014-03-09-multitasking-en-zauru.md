@@ -6,7 +6,7 @@ description: >-
   Una forma sencilla de trabajar en varios documentos (facturas, envíos, ordenes
   de compra, etc.) al mismo tiempo en Zauru.
 tags:
-  - multitasking
+  - MULTITASKING
 ---
 Sabemos que el día a día de nuestros usuarios es muy concurrido y que a veces tienen que hacer tareas distintas simultáneamente. Zauru le permite abrir varias pestañas a la vez para hacer distintas tareas simultáneamente. Existen dos maneras de hacerlo:
 
