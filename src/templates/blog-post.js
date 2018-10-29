@@ -94,10 +94,10 @@ const BlogPost = ({ data }) => {
           <h6 className="hero-foot-header" style={{ color: `white`}}>Compártelo</h6>
           <div className="hero-foot-line"></div>
           <div className="social-icons">
-            <a href="https://twitter.com/zauru_erp" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/intent/tweet?text=Me%20gusto%20el%20blog" target="_blank" rel="noopener noreferrer">
               <img src={TwitterIcon} alt="Twitter" />
               </a>
-            <a href="https://facebook.com/zauruerp" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.zauru.com%2F" target="_blank" rel="noopener noreferrer">
               <img src={FacebookIcon} alt="Facebook" />
             </a>
           </div>
@@ -109,6 +109,7 @@ const BlogPost = ({ data }) => {
         helmet={<Helmet title={`${post.frontmatter.title} | Zauru Blog`} />}
         date={post.frontmatter.date}
         tags={post.frontmatter.tags}
+        id={post.id}
       />
 
     </Layout>
