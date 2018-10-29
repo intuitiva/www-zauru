@@ -4,7 +4,7 @@ title: Innovar con Zauru es una Ventaja Competitiva
 date: 2015-07-22T17:14:00.000Z
 description: xxx
 tags:
-  - UNCATEGORIZED
+  - TIPS DE ZAURU
 ---
 Cuando en Zauru se habla de las herramientas, metodos o procesos, se menciona que son innovaciones para su empresa. Pero, ¿que significa la innovación en una empresa?
 
