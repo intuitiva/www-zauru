@@ -4,7 +4,7 @@ title: Lo interesante de categorizar gastos
 date: 2015-05-25T16:49:00.000Z
 description: xxx
 tags:
-  - UNCATEGORIZED
+  - TIPS DE ZAURU
 ---
 Al utilizar Zauru en todos los procesos, su empresa empezará a notar que muchos de los **procesos largos y tediosos,** se convierte en **procesos cortos y fáciles** de realizar. Esto se puede confirmar al momento de categorizar gastos. Cuando se **categoriza los gastos,** muchos de los procesos comunes como realizar presupuesto o buscar los gastos generales en las transacciones son tarea fácil.
 
