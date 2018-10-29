@@ -4,7 +4,7 @@ title: Diferencia entre Método de Pago y Término de Pago
 date: 2015-05-22T16:44:00.000Z
 description: xxx
 tags:
-  - UNCATEGORIZED
+  - NUESTROS MODULOS
 ---
 Usualmente, el método de pago y término de pago causa confusión, a continuación mostramos la diferencia en Zauru:
 
