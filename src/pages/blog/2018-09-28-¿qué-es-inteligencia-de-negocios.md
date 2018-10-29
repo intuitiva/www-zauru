@@ -4,12 +4,10 @@ title: ¿Qué es Inteligencia de Negocios?
 date: 2016-07-11T19:15:00.000Z
 description: xxx
 tags:
-  - UNCATEGORIZED
+  - NUEVAS FUNCIONALIDADES
 ---
 La inteligencia de negocios se puede definir en pocas palabras como la forma de aprovechar una herramienta para **descubrir oportunidades en sus datos.
 **
-
-\*\* \*\*
 
 ## ¿Por qué lo definimos como descubrir oportunidades?
 
@@ -26,6 +24,4 @@ En Zauru queremos ayudar a nuestros clientes a TOMAR DECISIONES DE VALOR que les
 
 Nuestra plataforma Zauru está integrada con Tableau que es la herramienta de Inteligencia de Negocios más potente del mercado. Esto permite que, como parte de uno de nuestros servicios, podamos ofrecerle reportes personalizados, especializados y certeros con la información ya ingresada en nuestra plataforma.
 
-
-
-![](/img/negocios.jpg)
+![null](/img/negocios.jpg)
