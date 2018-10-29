@@ -16,7 +16,7 @@ const Navbar = () => (
     <div className="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a className="navbar-item button" href="/home/#Modules">
+          <a className="navbar-item button" href="/home">
             Conoce m&aacute;s de Zauru
           </a>
           <a className="navbar-item button" href="https://app.zauru.com" target="_blank" rel="noopener noreferrer">
