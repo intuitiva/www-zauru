@@ -4,7 +4,7 @@ title: ¿Por qué existe una Implementación?
 date: 2016-02-09T18:39:00.000Z
 description: xxx
 tags:
-  - UNCATEGORIZED
+  - IMPLEMENTACION
 ---
 ![](/img/implementacion.jpg)
 
