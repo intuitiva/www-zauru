@@ -2,7 +2,9 @@
 templateKey: blog-post
 title: Cuanto le cuesta su desorden y la falta de herramientas?
 date: 2014-11-06T00:26:00.000Z
-description: xxx
+description: >-
+  Con una buena herramienta como zauru, sus empleados ahorran tiempo en dos
+  procesos (compras y facturación). 
 tags:
   - DATOS INTERESANTES
 ---
