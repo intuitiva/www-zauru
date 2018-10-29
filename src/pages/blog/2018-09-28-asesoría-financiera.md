@@ -4,7 +4,7 @@ title: Asesoría Financiera
 date: 2016-01-11T18:33:00.000Z
 description: xxx
 tags:
-  - UNCATEGORIZED
+  - DATOS INTERESANTES
 ---
 ![](/img/asesoria.jpg)
 
