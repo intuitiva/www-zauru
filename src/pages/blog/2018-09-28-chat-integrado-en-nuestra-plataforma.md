@@ -4,7 +4,7 @@ title: Chat Integrado en nuestra plataforma
 date: 2016-03-30T19:09:00.000Z
 description: xxx
 tags:
-  - UNCATEGORIZED
+  - NUEVAS FUNCIONALIDADES
 ---
 ![](/img/chat.png)
 
