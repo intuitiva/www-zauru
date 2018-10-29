@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Producto ERP vs. Servicio ERP
 date: 2014-09-23T19:13:00.000Z
-description: xxx
+description: Al adquirir servicio ERP obtiene un servicio de alta calidad.
 tags:
   - DATOS INTERESANTES
 ---
