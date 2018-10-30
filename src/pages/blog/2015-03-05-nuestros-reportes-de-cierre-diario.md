@@ -2,7 +2,10 @@
 templateKey: blog-post
 title: Nuestros reportes de cierre diario
 date: 2015-03-05T15:55:00.000Z
-description: xxx
+description: >-
+  Cierre diario es un reporte que le brinda la la información de las facturas y
+  pagos emitidos en la fecha seleccionada. Cierre diario consolidado, le brinda
+  un control mensual.
 tags:
   - TIPS DE ZAURU
 ---
