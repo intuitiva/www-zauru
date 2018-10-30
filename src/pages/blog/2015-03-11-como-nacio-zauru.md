@@ -3,7 +3,7 @@ templateKey: blog-post
 title: ¿Cómo nació Zauru?
 date: 2015-03-11T15:59:00.000Z
 description: >-
-  Sistema de finanzas personales que evoluciono a un sistema para administración
+  Sistema de finanzas personales que evolucionó a un sistema para administración
   de empresas que cubre las necesidades de varios tipos de negocios.
 tags:
   - DATOS INTERESANTES
