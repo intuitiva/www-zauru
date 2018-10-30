@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: ¿Por qué estandarizar los procesos en una empresa?
 date: 2015-04-13T16:10:00.000Z
-description: xxx
+description: Estandarizar procesos nos lleva a un mejor control de operaciones.
 tags:
   - TIPS DE ZAURU
 ---
