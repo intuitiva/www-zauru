@@ -2,7 +2,9 @@
 templateKey: blog-post
 title: ¿Es Excel su herramienta principal de trabajo?
 date: 2016-05-30T19:12:00.000Z
-description: xxx
+description: >-
+  Zauru no utiliza hojas de Excel como tal, el sistema ya solo necesita que
+  usted le ingrese la información y el realiza todos los cálculos.
 tags:
   - COMPARACIONES
 ---
