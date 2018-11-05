@@ -2,7 +2,9 @@
 templateKey: blog-post
 title: Innovar con Zauru es una Ventaja Competitiva
 date: 2015-07-22T17:14:00.000Z
-description: xxx
+description: >-
+  Los principales pilares de Zauru control y análisis, consideramos que zauru es
+  un paso a la innovación para su empresa.
 tags:
   - TIPS DE ZAURU
 ---
