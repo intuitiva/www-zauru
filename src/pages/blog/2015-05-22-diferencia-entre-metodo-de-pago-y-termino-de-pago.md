@@ -2,7 +2,9 @@
 templateKey: blog-post
 title: Diferencia entre Método de Pago y Término de Pago
 date: 2015-05-22T16:44:00.000Z
-description: xxx
+description: >-
+  Termino de pago consiste en los términos negociados para recibir el pago de
+  una operación. Método de pago consiste en la forma del pago.
 tags:
   - NUESTROS MÓDULOS
 ---
