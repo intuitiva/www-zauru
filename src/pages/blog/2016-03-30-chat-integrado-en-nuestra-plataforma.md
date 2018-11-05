@@ -2,7 +2,9 @@
 templateKey: blog-post
 title: Chat Integrado en nuestra plataforma
 date: 2016-03-30T19:09:00.000Z
-description: xxx
+description: >-
+  El chat integrado al cliente le permite al usuario contactarnos de forma
+  inmediata y así poder resolver y aclarar dudas.
 tags:
   - NUEVAS FUNCIONALIDADES
 ---
