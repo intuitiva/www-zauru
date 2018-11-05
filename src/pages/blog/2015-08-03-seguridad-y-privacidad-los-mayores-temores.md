@@ -2,7 +2,8 @@
 templateKey: blog-post
 title: Seguridad y privacidad ¿los mayores temores?
 date: 2015-08-03T17:19:00.000Z
-description: xxx
+description: |
+  Con zauru su información esta 100% respaldada.
 tags:
   - DATOS INTERESANTES
 ---
@@ -35,6 +36,4 @@ Nosotros firmamos junto con el cliente un “Acuerdo de Servicios” en donde ha
 
 Básicamente en este documento se establece de forma clara la politica de privacidad y divulgación de la información contenida en el sistema.
 
-
-
-![](/img/seguridad-y-privacidad.png)
+![null](/img/seguridad-y-privacidad.png)
