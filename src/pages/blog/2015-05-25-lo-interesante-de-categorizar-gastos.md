@@ -2,7 +2,9 @@
 templateKey: blog-post
 title: Lo interesante de categorizar gastos
 date: 2015-05-25T16:49:00.000Z
-description: xxx
+description: >-
+  Al categorizar los gastos, los gastos ingresados en la categoría son
+  fácilmente visibles para seleccionar y asignarles un presupuesto.
 tags:
   - TIPS DE ZAURU
 ---
