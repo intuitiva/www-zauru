@@ -2,7 +2,9 @@
 templateKey: blog-post
 title: La Importancia del Orden
 date: 2016-01-06T18:31:00.000Z
-description: xxx
+description: >-
+  Con Zauru llevar el orden es fácil y sencillo. El sistema le generara la
+  información necesaria y al día.
 tags:
   - TIPS DE ZAURU
 ---
@@ -15,10 +17,8 @@ Cuando una empresa se encuentra ordenada, todo es más fácil. Así de sencillo,
 
 Y así es como un proceso tan sencillo, al no estar ordenado, causa una serie de problemas los cuales se hubieran podido evitar si su personal y usted estuvieran comprometidos con el orden.
 
-Con Zauru llevar el orden y fácil y sencillo. El sistema le generara la información necesaria y al día, si la misma fue ingresada de manera correcta y en tiempo. Usted puede estar en cualquier lugar y a cualquier hora y puede ingresar al sistema para revisar sus reportes y tomar buenas decisiones justificadas.
+Con Zauru llevar el orden es fácil y sencillo. El sistema le generara la información necesaria y al día, si la misma fue ingresada de manera correcta y en tiempo. Usted puede estar en cualquier lugar y a cualquier hora y puede ingresar al sistema para revisar sus reportes y tomar buenas decisiones justificadas.
 
 ¡Anímese! El orden es la herramienta del hoy, que le servirá en el futuro.
 
-
-
-![](/img/orden.png)
+![null](/img/orden.png)
