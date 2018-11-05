@@ -2,7 +2,9 @@
 templateKey: blog-post
 title: Un empleado se retiro de la empresa …. ¿qué procede?
 date: 2015-09-16T17:23:00.000Z
-description: xxx
+description: >-
+  Se debe tomar en consideración que la seguridad es primordial y que no deben
+  permitir que un ex-empleado todavía tenga acceso a Zauru.
 tags:
   - TIPS DE ZAURU
 ---
@@ -12,21 +14,15 @@ Primero, desactivar al empleado antiguo por medio de los siguiente pasos:
 
 ## PASO 1 (ir a suscripciones)
 
-
-
-![](/img/un-empleado-se-retiro.png)
+![null](/img/un-empleado-se-retiro.png)
 
 ## PASO 2 (editar al usuario)
 
-
-
-![](/img/paso2.png)
+![null](/img/paso2.png)
 
 ## PASO 3 (desactivar el usuario)
 
-
-
-![](/img/paso3.png)
+![null](/img/paso3.png)
 
 Segundo, agregar al nuevo usuario para que mantenga los permisos que el usuario que se fue pero que todo lo que registre quede a su nombre.
 
@@ -34,6 +30,6 @@ Segundo, agregar al nuevo usuario para que mantenga los permisos que el usuario 
 2. Invitarlo a utilizar Zauru utilizando su nuevo correo. (vea nuestro manual)
 3. Que el nuevo empleado se registre en Zauru.
 
-Es importante que como empresa, tomen en consideración que la seguridad es primordial y que no deben permitir que un ex-empleado todavia tenga acceso a Zauru.
+Es importante que como empresa, tomen en consideración que la seguridad es primordial y que no deben permitir que un ex-empleado todavía tenga acceso a Zauru.
 
 También hay casos en los que no se contrata a ningún empleado que lo reemplaze, y en esta situación lo único que hay que realizar es la desactivación del usuario.
