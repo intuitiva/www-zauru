@@ -2,7 +2,9 @@
 templateKey: blog-post
 title: ¿Qué es Inteligencia de Negocios?
 date: 2016-07-11T19:15:00.000Z
-description: xxx
+description: >-
+  Nuestra plataforma Zauru está integrada con Tableau que es la herramienta de
+  Inteligencia de Negocios más potente del mercado.
 tags:
   - NUEVAS FUNCIONALIDADES
 ---
