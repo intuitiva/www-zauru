@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Lo importante de un presupuesto
 date: 2015-04-27T16:28:00.000Z
-description: xxx
+description: 'El presupuesto es un plan de acción a corto, medio o largo plazo.'
 tags:
   - DATOS INTERESANTES
   - NUESTROS MÓDULOS
