@@ -2,7 +2,9 @@
 templateKey: blog-post
 title: Beneficios de Auditar
 date: 2015-04-21T16:19:00.000Z
-description: xxx
+description: >-
+  Auditar el inventario consiste en una evaluación para ajustar el inventario,
+  entre otros.
 tags:
   - NUESTROS MÓDULOS
   - TIPS DE ZAURU
