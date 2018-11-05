@@ -2,7 +2,10 @@
 templateKey: blog-post
 title: Implementar Zauru no es solo subir datos
 date: 2015-06-30T17:07:00.000Z
-description: xxx
+description: >-
+  La implementación consiste en que la empresa brinde su información al personal
+  de Zauru, para que estos lo adicionen al sistema. Que la empresa se sienta
+  cómoda y la comunicación sea de ambas vías.
 tags:
   - IMPLEMENTACION
 ---
