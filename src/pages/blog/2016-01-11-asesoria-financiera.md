@@ -2,7 +2,10 @@
 templateKey: blog-post
 title: Asesoría Financiera
 date: 2016-01-11T18:33:00.000Z
-description: xxx
+description: >
+  Buscar asesoría financiera no debería de ser el último recurso a utilizar, una
+  asesoría financiera proactiva y no reactiva, puede hacer que su empresa genere
+  los frutos que usted tanto desea.
 tags:
   - DATOS INTERESANTES
 ---
