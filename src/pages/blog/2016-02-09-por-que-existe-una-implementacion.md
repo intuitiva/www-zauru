@@ -2,13 +2,13 @@
 templateKey: blog-post
 title: ¿Por qué existe una Implementación?
 date: 2016-02-09T18:39:00.000Z
-description: xxx
+description: >-
+  La implementación consiste en que el cliente brinde la información solicitada
+  para iniciar capacitaciones.
 tags:
   - IMPLEMENTACION
 ---
-![](/img/implementacion.jpg)
-
-
+![null](/img/implementacion.jpg)
 
 Para entender perfectamente por que en Zauru “implementamos”, vamos a empezar definiendo que es implementar.
 
@@ -29,8 +29,8 @@ La segunda fase consiste en capacitar. Esta fase es la mas dinámica ya que noso
 
 Nos ha pasado muchas veces, que el miedo se apodera de los usuarios porque sienten que si se confunden algo va a estallar. Zauru permite deshacer todo lo que se hace malo por lo que el miedo está infundido. Los errores son de humanos y van a pasar siempre y conforme va pasando el tiempo, se irán minimizando.
 
-Despues de haber terminado la fase I y fase II, se podria decir que el cliente esta listo al 100% para utilizar el sistema.
+Después de haber terminado la fase I y fase II, se podría decir que el cliente esta listo al 100% para utilizar el sistema.
 
-Zauru sabe que sin estas dos fases llamadas “implementación”, el uso del sistema no sería el mismo, las empresas no podrian obtener el maximo beneficio de ellas, y muy posiblemente ni siquiera lo usen por desconocer sus ventajas.
+Zauru sabe que sin estas dos fases llamadas “implementación”, el uso del sistema no sería el mismo, las empresas no podrían obtener el máximo beneficio de ellas, y muy posiblemente ni siquiera lo usen por desconocer sus ventajas.
 
-Saludos y animos en la etapa de implementación.
+Saludos y ánimos en la etapa de implementación.
