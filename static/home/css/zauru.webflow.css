@@ -129,7 +129,7 @@ figcaption {
 .section.facts-section {
   padding-top: 72px;
   padding-bottom: 72px;
-  background-image: -webkit-linear-gradient(0deg, #ff935c, #fb406c);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff935c), to(#fb406c));
   background-image: linear-gradient(90deg, #ff935c, #fb406c);
 }
 
@@ -267,19 +267,19 @@ figcaption {
   -ms-flex-line-pack: center;
   align-content: center;
   border-radius: 3px;
-  background-image: -webkit-linear-gradient(0deg, #ff935c, #fb406c);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff935c), to(#fb406c));
   background-image: linear-gradient(90deg, #ff935c, #fb406c);
   font-size: 16px;
   line-height: 21px;
 }
 
 .button:hover {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05)), -webkit-linear-gradient(0deg, #ff935c, #fb406c);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .05)), to(rgba(0, 0, 0, .05))), -webkit-gradient(linear, left top, right top, from(#ff935c), to(#fb406c));
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05)), linear-gradient(90deg, #ff935c, #fb406c);
 }
 
 .button.white-button:hover {
-  background-image: -webkit-linear-gradient(0deg, #ff935c, #fb406c);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff935c), to(#fb406c));
   background-image: linear-gradient(90deg, #ff935c, #fb406c);
   color: #fff;
 }
@@ -289,7 +289,7 @@ figcaption {
 }
 
 .button.white-button.nav-bar-button:hover {
-  background-image: -webkit-linear-gradient(0deg, #ff935c, #fb406c);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff935c), to(#fb406c));
   background-image: linear-gradient(90deg, #ff935c, #fb406c);
 }
 
@@ -308,7 +308,7 @@ figcaption {
 }
 
 .button.hero-button:hover {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .04), rgba(0, 0, 0, .04)), -webkit-linear-gradient(0deg, #ff935c, #fb406c);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .04)), to(rgba(0, 0, 0, .04))), -webkit-gradient(linear, left top, right top, from(#ff935c), to(#fb406c));
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .04), rgba(0, 0, 0, .04)), linear-gradient(90deg, #ff935c, #fb406c);
 }
 
@@ -325,14 +325,14 @@ figcaption {
 
 .button.instagram-button {
   padding-left: 48px;
-  background-image: url('../images/instagram-icon-white.svg'), -webkit-linear-gradient(0deg, #ff935c, #fb406c);
+  background-image: url('../images/instagram-icon-white.svg'), -webkit-gradient(linear, left top, right top, from(#ff935c), to(#fb406c));
   background-image: url('../images/instagram-icon-white.svg'), linear-gradient(90deg, #ff935c, #fb406c);
   background-position: 20px 50%, 0px 0px;
   background-repeat: no-repeat, repeat;
 }
 
 .button.instagram-button:hover {
-  background-image: url('../images/instagram-icon-white.svg'), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05)), -webkit-linear-gradient(0deg, #ff935c, #fb406c);
+  background-image: url('../images/instagram-icon-white.svg'), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .05)), to(rgba(0, 0, 0, .05))), -webkit-gradient(linear, left top, right top, from(#ff935c), to(#fb406c));
   background-image: url('../images/instagram-icon-white.svg'), linear-gradient(180deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05)), linear-gradient(90deg, #ff935c, #fb406c);
   background-position: 20px 50%, 0px 0px, 0px 0px;
   background-repeat: no-repeat, repeat, repeat;
@@ -402,7 +402,7 @@ figcaption {
 
 .button-style-wrapper.dark-bg {
   background-color: #224765;
-  background-image: -webkit-linear-gradient(270deg, rgba(34, 71, 101, .75), rgba(34, 71, 101, .75)), url('../images/samuel-zeller-242172.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 71, 101, .75)), to(rgba(34, 71, 101, .75))), url('../images/samuel-zeller-242172.jpg');
   background-image: linear-gradient(180deg, rgba(34, 71, 101, .75), rgba(34, 71, 101, .75)), url('../images/samuel-zeller-242172.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
@@ -414,14 +414,14 @@ figcaption {
   height: 40px;
   padding: 11px 16px 0px;
   border-radius: 3px;
-  background-image: -webkit-linear-gradient(0deg, #ff935c, #fb406c);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff935c), to(#fb406c));
   background-image: linear-gradient(90deg, #ff935c, #fb406c);
   font-size: 13px;
   line-height: 20px;
 }
 
 .small-button:hover {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05)), -webkit-linear-gradient(0deg, #ff935c, #fb406c);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .05)), to(rgba(0, 0, 0, .05))), -webkit-gradient(linear, left top, right top, from(#ff935c), to(#fb406c));
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05)), linear-gradient(90deg, #ff935c, #fb406c);
 }
 
@@ -456,7 +456,7 @@ figcaption {
 
 .ghost-button {
   background-color: transparent;
-  background-image: -webkit-linear-gradient(270deg, transparent, transparent);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
   background-image: linear-gradient(180deg, transparent, transparent);
   box-shadow: inset 0 0 0 1px #ddd;
   color: #222;
@@ -464,7 +464,7 @@ figcaption {
 
 .ghost-white-button {
   background-color: transparent;
-  background-image: -webkit-linear-gradient(270deg, transparent, transparent);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
   background-image: linear-gradient(180deg, transparent, transparent);
   box-shadow: inset 0 0 0 1px #fff;
   color: #fff;
@@ -472,7 +472,7 @@ figcaption {
 
 .white-button {
   background-color: #fff;
-  background-image: -webkit-linear-gradient(270deg, #fff, #fff);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
   background-image: linear-gradient(180deg, #fff, #fff);
   color: #222;
 }
@@ -510,14 +510,14 @@ figcaption {
   padding-right: 0px;
   padding-left: 0px;
   background-color: #194d77;
-  background-image: -webkit-linear-gradient(270deg, rgba(34, 71, 101, .8), rgba(34, 71, 101, .8)), url('../images/joanna-kosinska-131081.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 71, 101, .8)), to(rgba(34, 71, 101, .8))), url('../images/joanna-kosinska-131081.jpg');
   background-image: linear-gradient(180deg, rgba(34, 71, 101, .8), rgba(34, 71, 101, .8)), url('../images/joanna-kosinska-131081.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
 
 .image-section.hero-section.hero-image {
-  background-image: -webkit-linear-gradient(270deg, rgba(17, 63, 100, .8), rgba(17, 63, 100, .8)), url('../images/alesia-kazantceva-283291.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 63, 100, .8)), to(rgba(17, 63, 100, .8))), url('../images/alesia-kazantceva-283291.jpg');
   background-image: linear-gradient(180deg, rgba(17, 63, 100, .8), rgba(17, 63, 100, .8)), url('../images/alesia-kazantceva-283291.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
@@ -527,7 +527,7 @@ figcaption {
 .image-section.cta-section {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-image: -webkit-linear-gradient(270deg, rgba(34, 71, 101, .64), rgba(34, 71, 101, .64)), url('../images/breather-168767.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 71, 101, .64)), to(rgba(34, 71, 101, .64))), url('../images/breather-168767.jpg');
   background-image: linear-gradient(180deg, rgba(34, 71, 101, .64), rgba(34, 71, 101, .64)), url('../images/breather-168767.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
@@ -538,7 +538,7 @@ figcaption {
 .image-section.testimonials-section {
   padding-top: 110px;
   padding-bottom: 110px;
-  background-image: -webkit-linear-gradient(270deg, rgba(34, 71, 101, .65), rgba(34, 71, 101, .65)), url('../images/jeshoots-com-219386.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 71, 101, .65)), to(rgba(34, 71, 101, .65))), url('../images/jeshoots-com-219386.jpg');
   background-image: linear-gradient(180deg, rgba(34, 71, 101, .65), rgba(34, 71, 101, .65)), url('../images/jeshoots-com-219386.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
@@ -547,7 +547,7 @@ figcaption {
 }
 
 .image-section.footer-section {
-  background-image: -webkit-linear-gradient(270deg, rgba(34, 71, 101, .75), rgba(34, 71, 101, .75)), url('../images/samuel-zeller-242172.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 71, 101, .75)), to(rgba(34, 71, 101, .75))), url('../images/samuel-zeller-242172.jpg');
   background-image: linear-gradient(180deg, rgba(34, 71, 101, .75), rgba(34, 71, 101, .75)), url('../images/samuel-zeller-242172.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
@@ -556,7 +556,7 @@ figcaption {
 }
 
 .image-section.blog-hero-section {
-  background-image: -webkit-linear-gradient(270deg, rgba(34, 71, 101, .65), rgba(34, 71, 101, .65)), url('../images/lauren-mancke-60627.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 71, 101, .65)), to(rgba(34, 71, 101, .65))), url('../images/lauren-mancke-60627.jpg');
   background-image: linear-gradient(180deg, rgba(34, 71, 101, .65), rgba(34, 71, 101, .65)), url('../images/lauren-mancke-60627.jpg');
   background-position: 0px 0px, 50% -94px;
   background-size: auto, cover;
@@ -579,7 +579,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-linear-gradient(270deg, rgba(34, 71, 101, .65), rgba(34, 71, 101, .65)), url('../images/bench-accounting-49909.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 71, 101, .65)), to(rgba(34, 71, 101, .65))), url('../images/bench-accounting-49909.jpg');
   background-image: linear-gradient(180deg, rgba(34, 71, 101, .65), rgba(34, 71, 101, .65)), url('../images/bench-accounting-49909.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
@@ -597,7 +597,7 @@ figcaption {
 }
 
 .image-section.style-guide-section {
-  background-image: -webkit-linear-gradient(270deg, rgba(34, 71, 101, .7), rgba(34, 71, 101, .7)), url('../images/joanna-kosinska-131081.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 71, 101, .7)), to(rgba(34, 71, 101, .7))), url('../images/joanna-kosinska-131081.jpg');
   background-image: linear-gradient(180deg, rgba(34, 71, 101, .7), rgba(34, 71, 101, .7)), url('../images/joanna-kosinska-131081.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
@@ -608,7 +608,7 @@ figcaption {
 .image-section.facts-bg-section {
   padding-top: 72px;
   padding-bottom: 72px;
-  background-image: -webkit-linear-gradient(270deg, rgba(25, 77, 119, .5), rgba(25, 77, 119, .5)), url('../images/michal-grosicki-235031.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 77, 119, .5)), to(rgba(25, 77, 119, .5))), url('../images/michal-grosicki-235031.jpg');
   background-image: linear-gradient(180deg, rgba(25, 77, 119, .5), rgba(25, 77, 119, .5)), url('../images/michal-grosicki-235031.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
@@ -617,7 +617,7 @@ figcaption {
 }
 
 .image-section.licensing-section {
-  background-image: -webkit-linear-gradient(270deg, rgba(34, 71, 101, .7), rgba(34, 71, 101, .7)), url('../images/jeshoots-com-219386.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 71, 101, .7)), to(rgba(34, 71, 101, .7))), url('../images/jeshoots-com-219386.jpg');
   background-image: linear-gradient(180deg, rgba(34, 71, 101, .7), rgba(34, 71, 101, .7)), url('../images/jeshoots-com-219386.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
@@ -694,7 +694,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-linear-gradient(270deg, rgba(25, 77, 119, .5), rgba(25, 77, 119, .5)), url('../images/davide-cantelli-240809.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 77, 119, .5)), to(rgba(25, 77, 119, .5))), url('../images/davide-cantelli-240809.jpg');
   background-image: linear-gradient(180deg, rgba(25, 77, 119, .5), rgba(25, 77, 119, .5)), url('../images/davide-cantelli-240809.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
@@ -939,7 +939,7 @@ figcaption {
   width: 2px;
   height: 100%;
   margin-left: 30px;
-  background-image: -webkit-linear-gradient(270deg, #ff935c, #fb406c);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff935c), to(#fb406c));
   background-image: linear-gradient(180deg, #ff935c, #fb406c);
 }
 
@@ -1359,7 +1359,7 @@ figcaption {
   margin: auto;
   border: 2px solid #fff;
   border-radius: 50%;
-  background-image: url('../images/play-icon.svg'), -webkit-linear-gradient(270deg, #ff935c, #fb406c);
+  background-image: url('../images/play-icon.svg'), -webkit-gradient(linear, left top, left bottom, from(#ff935c), to(#fb406c));
   background-image: url('../images/play-icon.svg'), linear-gradient(180deg, #ff935c, #fb406c);
   background-position: 50% 50%, 0px 0px;
   background-repeat: no-repeat, repeat;
@@ -1628,7 +1628,7 @@ figcaption {
 .question-line {
   width: 2px;
   height: 32px;
-  background-image: -webkit-linear-gradient(270deg, #ff935c, #fb406c);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff935c), to(#fb406c));
   background-image: linear-gradient(180deg, #ff935c, #fb406c);
 }
 
@@ -2299,7 +2299,7 @@ figcaption {
   height: 32px;
   margin-top: 16px;
   margin-right: -1px;
-  background-image: -webkit-linear-gradient(270deg, #ff935c, #fb406c);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff935c), to(#fb406c));
   background-image: linear-gradient(180deg, #ff935c, #fb406c);
 }
 
@@ -2593,7 +2593,7 @@ figcaption {
 }
 
 .blog-category:hover {
-  background-image: -webkit-linear-gradient(0deg, #ff935c, #fb406c);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff935c), to(#fb406c));
   background-image: linear-gradient(90deg, #ff935c, #fb406c);
   color: #fff;
 }
@@ -2686,7 +2686,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-linear-gradient(270deg, rgba(34, 71, 101, .7), rgba(34, 71, 101, .7)), url('../images/alesia-kazantceva-283291.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 71, 101, .7)), to(rgba(34, 71, 101, .7))), url('../images/alesia-kazantceva-283291.jpg');
   background-image: linear-gradient(180deg, rgba(34, 71, 101, .7), rgba(34, 71, 101, .7)), url('../images/alesia-kazantceva-283291.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
@@ -2841,7 +2841,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 50%;
-  background-image: url('../images/callback-icon-white_1callback-icon-white.png'), -webkit-linear-gradient(270deg, #ff935c, #fb406c);
+  background-image: url('../images/callback-icon-white_1callback-icon-white.png'), -webkit-gradient(linear, left top, left bottom, from(#ff935c), to(#fb406c));
   background-image: url('../images/callback-icon-white_1callback-icon-white.png'), linear-gradient(180deg, #ff935c, #fb406c);
   background-position: 50% 50%, 0px 0px;
   background-size: 32px, auto;
@@ -3205,7 +3205,7 @@ figcaption {
   right: 0px;
   bottom: 0px;
   z-index: 1;
-  background-image: -webkit-linear-gradient(0deg, hsla(0, 0%, 100%, 0), #fff 90%);
+  background-image: -webkit-gradient(linear, left top, right top, from(hsla(0, 0%, 100%, 0)), color-stop(90%, #fff));
   background-image: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #fff 90%);
 }
 
@@ -3515,7 +3515,7 @@ figcaption {
   padding: 5px 10px;
   border: 2px none #3f2020;
   border-radius: 3px;
-  background-image: -webkit-linear-gradient(0deg, #fb406c, #ff935c);
+  background-image: -webkit-gradient(linear, left top, right top, from(#fb406c), to(#ff935c));
   background-image: linear-gradient(90deg, #fb406c, #ff935c);
   color: #fff;
   text-decoration: none;
@@ -4126,7 +4126,7 @@ html.w-mod-js *[data-ix="show-call-back-popup"] {
     padding-left: 8px;
   }
   .image-section.blog-hero-section {
-    background-image: -webkit-linear-gradient(270deg, null, null), url('../images/lauren-mancke-60627.jpg');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(null), to(null)), url('../images/lauren-mancke-60627.jpg');
     background-image: linear-gradient(180deg, null, null), url('../images/lauren-mancke-60627.jpg');
     background-position: 0px 0px, 50% 50%;
   }
@@ -4935,7 +4935,7 @@ html.w-mod-js *[data-ix="show-call-back-popup"] {
     padding-left: 0px;
   }
   .slide-2 {
-    background-image: -webkit-linear-gradient(270deg, rgba(34, 71, 101, .7), rgba(34, 71, 101, .7)), url('../images/alesia-kazantceva-283291.jpg');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 71, 101, .7)), to(rgba(34, 71, 101, .7))), url('../images/alesia-kazantceva-283291.jpg');
     background-image: linear-gradient(180deg, rgba(34, 71, 101, .7), rgba(34, 71, 101, .7)), url('../images/alesia-kazantceva-283291.jpg');
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
