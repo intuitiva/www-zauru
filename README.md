@@ -25,3 +25,8 @@ $ npm run serve
 ## Netlify Identity (links from email not working)
 
 In order to the links from the email to work (invitations, confirmations, password recovery, email change) we need to add the index.js back (copy from src/pages/blog/index.js) push it and delete the redirects configuration netlify.toml and gatsby-node.js
+
+## NOTES
+
+We kept gatsby 2.20.28 as it is the last one that doesnt give an ugly error when building/develop.
+
