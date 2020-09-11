@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-title: Cambios en los canales de comunicación para recibir asistencia.
-date: 2020-09-11T16:00:47.621Z
+title: Cambios en los canales de comunicación para recibir asistencia
+date: 2020-09-11T16:12:15.843Z
 description: El nuevo chat trae varias funcionalidades nuevas para mejorar la
   asistencia brindada
 tags:
