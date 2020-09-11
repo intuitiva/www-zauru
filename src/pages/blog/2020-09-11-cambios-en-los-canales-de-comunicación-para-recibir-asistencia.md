@@ -1,8 +1,9 @@
 ---
 templateKey: blog-post
 title: Cambios en los canales de comunicación para recibir asistencia.
-date: 2020-09-11T13:04:58.251Z
-description: El nuevo chat trae varias funcionalidades nuevas
+date: 2020-09-11T16:00:47.621Z
+description: El nuevo chat trae varias funcionalidades nuevas para mejorar la
+  asistencia brindada
 tags:
   - NUEVAS FUNCIONALIDADES
 ---
@@ -10,9 +11,14 @@ Actualmente, por el crecimiento que hemos tenido de usuarios, estamos resolviend
 
 ## 1. Conoce nuestro nuevo chat
 
-<div style>
-<video id="doc-player"  controls  muted  class="cld-video-player cld-fluid"></video>
-</div>
+<iframe
+  src="https://player.cloudinary.com/embed/?public_id=nuevo_chat_720_yzhqjq&cloud_name=hurynnu8i&player%5Bfluid%5D=true&player%5Bcontrols%5D=true&player%5Bcolors%5D%5Baccent%5D=%23fdff0c&player%5Blogo_onclick_url%5D=https%3A%2F%2Fwww.zauru.com%2Fhome&player%5Blogo_image_url%5D=https%3A%2F%2Fres.cloudinary.com%2Fhurynnu8i%2Fimage%2Fupload%2Fv1599839906%2Ftileicon-white_xvbldv.png&player%5Bhide_context_menu%5D=true&source%5Bsource_types%5D%5B0%5D=mp4"
+  width="640"
+  height="480"
+  allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+  allowfullscreen
+  frameborder="0"
+></iframe>
 
 El chat funciona muy similar al anterior.
 
@@ -38,13 +44,3 @@ Para que realmente veamos los frutos de estas novedades, a partir del próximo _
 -----
 
 **Tenemos el objetivo de ser el mejor sistema para control de operaciones de latinoamérica para pequeñas y medianas empresas y estas mejoras las realizamos con el fin de mejorar el seguimiento y resolución de tus casos.**
-
-<link href="https://unpkg.com/cloudinary-video-player@1.4.3/dist/cld-video-player.min.css" rel="stylesheet">
-<script src="https://unpkg.com/cloudinary-core@2.10.3/cloudinary-core-shrinkwrap.min.js" type="text/javascript"></script>
-<script src="https://unpkg.com/cloudinary-video-player@1.4.3/dist/cld-video-player.min.js" 
-    type="text/javascript"></script>
-<script>
-var cld = cloudinary.Cloudinary.new({ cloud_name: 'hurynnu8i' });
-var demoplayer = cld.videoPlayer('doc-player').width(600);
-demoplayer.source('nuevo_chat_720')
-</script>
