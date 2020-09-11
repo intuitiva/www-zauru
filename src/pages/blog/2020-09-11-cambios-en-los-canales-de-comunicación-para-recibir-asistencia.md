@@ -13,7 +13,7 @@ Actualmente, por el crecimiento que hemos tenido de usuarios, estamos resolviend
 
 <iframe
   src="https://player.cloudinary.com/embed/?public_id=nuevo_chat_720_yzhqjq&cloud_name=hurynnu8i&player%5Bfluid%5D=true&player%5Bcontrols%5D=true&player%5Bcolors%5D%5Baccent%5D=%23fdff0c&player%5Blogo_onclick_url%5D=https%3A%2F%2Fwww.zauru.com%2Fhome&player%5Blogo_image_url%5D=https%3A%2F%2Fres.cloudinary.com%2Fhurynnu8i%2Fimage%2Fupload%2Fv1599839906%2Ftileicon-white_xvbldv.png&player%5Bhide_context_menu%5D=true&source%5Bsource_types%5D%5B0%5D=mp4"
-  width="640"
+  width="800"
   height="480"
   allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
   allowfullscreen
